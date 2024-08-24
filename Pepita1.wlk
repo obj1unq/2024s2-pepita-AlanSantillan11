@@ -55,15 +55,16 @@ method energia() {
  }
  object  roque  {
     var cenas = 0
+	var ave = pepita
     method alimentar(alimento) {
-  cenas = cenas + 1 && alientarAve()
+  cenas = cenas + 1 && alientarAve(alimento)
     
     }
     method cenas() {
         return cenas 
          
 
-    }
+    } 
 
    
  }
